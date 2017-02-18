@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Hello World Example",
+  "description": "This extension shows a Hello World over the popop as you click the icon",
+  "version": "1.0",
+  "browser_action": {
+	"default_title": "Hello World",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+	"https://ajax.googleapis.com/",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
